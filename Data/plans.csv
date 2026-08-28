@@ -1,0 +1,11 @@
+plan_id,plan_name,plan_type,price_usd,market
+1,Stellar 1-Step 10K,Stellar 1-Step,79,CFD
+2,Stellar 1-Step 25K,Stellar 1-Step,199,CFD
+3,Stellar 1-Step 50K,Stellar 1-Step,299,CFD
+4,Stellar 2-Step 10K,Stellar 2-Step,59,CFD
+5,Stellar 2-Step 25K,Stellar 2-Step,159,CFD
+6,Stellar 2-Step 50K,Stellar 2-Step,249,CFD
+7,Stellar Lite 25K,Stellar Lite,99,CFD
+8,Stellar Lite 50K,Stellar Lite,179,CFD
+9,Stellar Instant 25K,Stellar Instant,149,CFD
+10,Futures Real 25K,Futures Real,99,Futures
