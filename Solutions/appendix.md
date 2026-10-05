@@ -10,7 +10,7 @@
 During cross-table extraction and reconciliation across the 5 source systems, four primary data quality anomalies were identified and resolved:
 1. **Mixed Date Formatting in Transactions (`transactions.parquet`):**
    * *Anomaly:* The `created_at_utc` column contained three distinct format patterns: ISO 8601 timestamps (`2025-01-13T15:29:21Z`, 92.0% of records), standard space-separated timestamps (`2025-09-05 16:49:53`, 5.0%), and European slash format (`13/07/2025 07:27`, 3.0%). Naive datetime parsing erroneously parsed `06/12/2024` as June 12 instead of Dec 6, creating false dates extending to December 2026.
-   * *Resolution:* A multi-pattern parser was deployed enforcing `%d/%m/%Y %H:%M` for slash dates and ISO 8601 for standard formats. This fully aligned transaction dates with the accounts creation window (`2024-10-31` to `2026-05-15`).
+   * *Resolution:* A multi-pattern parser was deployed enforcing `%d/%m/%Y %H:%M` for slash dates and ISO 8601 for standard formats. This fully aligned transaction dates with the accounts creation window (`2024-11-01` to `2026-05-14`).
 2. **Server Type Categorical Inconsistencies (`accounts.csv`):**
    * *Anomaly:* Casing variants and trailing whitespaces (`'MT5'`, `'mt5'`, `'Mt5 '`, `'TRADOVATE'`, `'tradovate'`).
    * *Resolution:* Normalized via `.str.strip().str.upper()` into standard platform categories (`MT5`, `TRADOVATE`, `MT4`, `CTRADER`).

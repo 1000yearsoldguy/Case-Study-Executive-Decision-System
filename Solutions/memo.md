@@ -2,18 +2,18 @@
 
 **TO:** Executive Leadership & BI Department, FundedNext  
 **FROM:** Executive, Business Intelligence Department  
-**DATE:** May 18, 2026  
+**DATE:** October 5, 2026  
 **SUBJECT:** Strategic Recommendations: $200K Q3 Acquisition Campaign & FY27 Pricing/Promotion Strategy  
 
 ---
 
 ## EXECUTIVE SUMMARY
 
-Across 18.5 months of reconciled production data (50,000 trading accounts, 113,693 transactions, and $9.40M in trader disbursements), FundedNext generated **$13.27M in Net Revenue** ($6.67M challenge purchases + $6.61M resets) and **$3.87M in Net Contribution** (29.2% net portfolio margin). 
+Across 18.4 months of reconciled production data (50,000 trading accounts, 113,693 transactions, and $9.40M in trader disbursements), FundedNext generated **$13.27M in Net Revenue** ($6.67M challenge purchases + $6.61M resets) and **$3.87M in Net Contribution** (29.2% net portfolio margin). 
 
 Our analysis identifies significant profit asymmetry across product variants:
-1. **The Core Growth Engine:** 50K Challenges (Stellar 2-Step 50K and Stellar 1-Step 50K) generate the portfolio’s highest customer lifetime contribution (**$456 – $562 Net Contribution per customer**; 72.5%–83.0% margin) powered by heavy reset monetization.
-2. **The High-Velocity Promo Engine:** Stellar Lite (25K & 50K) exhibits extreme price elasticity ($\beta \approx -5.0$), driving a **+380% to +413% volume surge** during discounts while maintaining **92%–94% net margins** and minimal payout risk ($11–$15/account).
+1. **The Core Growth Engine:** 50K Challenges (Stellar 2-Step 50K and Stellar 1-Step 50K) generate the portfolio’s highest customer lifetime contribution (**$456 – $562 Net Contribution per customer**; 72.5%–82.9% margin) powered by heavy reset monetization.
+2. **The High-Velocity Promo Engine:** Stellar Lite (25K & 50K) exhibits extreme price elasticity ($\beta \approx -5.1$), driving a **+398.7% to +413.0% volume surge** during discounts while maintaining **92%–94% net margins** and minimal payout risk ($11–$15/account).
 3. **The Toxic Bleed:** Stellar Instant (Plan 9) bypasses risk screening, resulting in an empirical net loss of **-$1,837 per account** (-$5.69M cumulative loss).
 
 Below are the evidence-backed recommendations for the $200K acquisition budget and pricing policy.
@@ -29,22 +29,22 @@ Below are the evidence-backed recommendations for the $200K acquisition budget a
 ### 2. Revenue & Profit Implication (Revenue Second)
 * **Expected Return:** Under a conservative target blended Customer Acquisition Cost (CAC) of **$80** ($60–$100 sensitivity range):
   * **Acquired Volume:** **2,500 new high-value traders** (range: 2,000 to 3,333).
-  * **Gross Lifetime Revenue:** **$1.60M** ($640.00 average revenue per customer; Gross ROAS: **8.0x**).
+  * **Gross Lifetime Revenue:** **$1.60M** ($640.10 average revenue per customer; Gross ROAS: **8.0x**).
   * **COGS (Trader Payouts):** **$354k** (average payout of $141.65 per customer).
   * **Net Contribution Generated:** **$1.25M** (Revenue minus Payouts; Contribution ROAS: **6.23x**).
-  * **Net Profit (Post Ad Spend):** **+$1,046,000** (**Net Campaign ROI: +523%**).
+  * **Net Profit (Post Ad Spend):** **+$1,046,127** (**Net Campaign ROI: +523%**).
   * **Payback Period:** **< 21 days** on initial challenge fees and early resets.
 
 ```
 +-------------------------------------------------------------------------------------------------------+
 |                $200,000 ACQUISITION CAMPAIGN SCENARIOS: 50K BLENDED CHALLENGE CAMPAIGN                |
-+-------------------+--------------------+-------------------+--------------------+---------------------+
-| Target CAC ($)    | Acquired Customers | Gross Revenue ($) | Net Contrib. ($)   | Net ROI (%)         |
-+-------------------+--------------------+-------------------+--------------------+---------------------+
-| $60 (Optimistic)  | 3,333              | $2,133,000        | $1,661,000         | +731% (8.3x ROAS)   |
-| $80 (Base Case)   | 2,500              | $1,600,000        | $1,246,000         | +523% (6.2x ROAS)   |
-| $100 (Stress Test)| 2,000              | $1,280,000        | $997,000           | +398% (5.0x ROAS)   |
-+-------------------+--------------------+-------------------+--------------------+---------------------+
++--------------------+--------------------+--------------------+---------------------+---------------------+
+| Target CAC ($)     | Acquired Customers | Gross Revenue ($)  | Net Contrib. ($)    | Net ROI (%)         |
++--------------------+--------------------+--------------------+---------------------+---------------------+
+| $60 (Optimistic)   | 3,333              | $2,133,670         | $1,661,503          | +731% (8.3x ROAS)   |
+| $80 (Base Case)    | 2,500              | $1,600,253         | $1,246,127          | +523% (6.2x ROAS)   |
+| $100 (Stress Test) | 2,000              | $1,280,202         | $996,902            | +398% (5.0x ROAS)   |
++--------------------+--------------------+--------------------+---------------------+---------------------+
 ```
 
 ### 3. Evidence & Business Logic (Evidence Third)
@@ -56,16 +56,16 @@ Below are the evidence-backed recommendations for the $200K acquisition budget a
 ```
 +-------------------------------------------------------------------------------------------------------+
 |                                    PRODUCT UNIT ECONOMICS COMPARISON                                  |
-+-------------------------+------------+-----------+--------------+--------------+-------------+--------+
-| Plan Name               | Price ($)  | Pass Rate | Resets / Acc | Rev / Acc ($)| Payout / Acc| Margin |
-+-------------------------+------------+-----------+--------------+--------------+-------------+--------+
-| Stellar 1-Step 50K      | $299       | 9.87%     | 2.08         | $678.65      | $140.20     | 79.3%  |
-| Stellar 2-Step 50K      | $249       | 8.21%     | 1.43         | $448.90      | $55.88      | 87.6%  |
-| Stellar Lite 50K        | $179       | 4.08%     | 0.85         | $249.28      | $14.79      | 94.1%  |
-| Stellar 2-Step 25K      | $159       | 7.66%     | 1.41         | $285.06      | $64.33      | 77.4%  |
-| Stellar 1-Step 10K      | $79        | 9.95%     | 2.06         | $178.50      | $176.57     | 1.1%   |
-| Stellar Instant 25K     | $149       | 100.0%    | 0.00         | $137.17      | $1,974.39   | -1339% |
-+-------------------------+------------+-----------+--------------+--------------+-------------+--------+
++-------------------------+------------+-----------+--------------+---------------+--------------+--------+
+| Plan Name               | Price ($)  | Pass Rate | Resets / Acc | Rev / Acc ($) | Payout / Acc | Margin |
++-------------------------+------------+-----------+--------------+---------------+--------------+--------+
+| Stellar 1-Step 50K      | $299       | 9.87%     | 2.08         | $678.65       | $140.20      | 79.3%  |
+| Stellar 2-Step 50K      | $249       | 8.21%     | 1.43         | $448.90       | $55.88       | 87.6%  |
+| Stellar Lite 50K        | $179       | 4.08%     | 0.85         | $249.28       | $14.79       | 94.1%  |
+| Stellar 2-Step 25K      | $159       | 7.66%     | 1.41         | $285.06       | $64.33       | 77.4%  |
+| Stellar 1-Step 10K      | $79        | 9.95%     | 2.06         | $178.50       | $176.57      | 1.1%   |
+| Stellar Instant 25K     | $149       | 100.0%    | 0.00         | $137.17       | $1,974.39    | -1339% |
++-------------------------+------------+-----------+--------------+---------------+--------------+--------+
 ```
 
 ### 4. Experiment Design & Measurement Plan (Methodology Last)
@@ -90,54 +90,54 @@ Below are the evidence-backed recommendations for the $200K acquisition budget a
 
 ### 2. Revenue & Profit Implication (Revenue Second)
 * **Stellar Lite Deeper Discount Impact (+10% Discount Depth):**
-  * **Volume Surge:** Quarterly unit sales expand by **+53.1% to +56.2%** (+729 incremental quarterly units across 25K & 50K).
-  * **Gross Baseline Cannibalization:** -$18,290 per quarter in lower revenue from existing baseline buyers.
-  * **Incremental Purchase Revenue:** +$80,047 per quarter from new buyers.
-  * **Incremental Downstream Reset Revenue:** +$55,898 per quarter.
-  * **Incremental Downstream COGS (Payouts):** -$9,525 per quarter.
-  * **Net Incremental Profit Expansion:** **+$108,130 per quarter** (**+$432,520 Annualized Net Contribution**).
+  * **Volume Surge:** Quarterly unit sales expand by **+49.7% to +52.6%** (+1,276 incremental quarterly units across 25K & 50K).
+  * **Gross Baseline Cannibalization:** -$31,011 per quarter in lower revenue from existing baseline buyers.
+  * **Incremental Purchase Revenue:** +$140,048 per quarter from new buyers.
+  * **Incremental Downstream Reset Revenue:** +$97,797 per quarter.
+  * **Incremental Downstream COGS (Payouts):** -$16,665 per quarter.
+  * **Net Incremental Profit Expansion:** **+$190,171 per quarter** (**+$760,685 Annualized Net Contribution**).
 
 ```
 +-------------------------------------------------------------------------------------------------------+
 |              QUARTERLY FINANCIAL WATERFALL: +10% DEEPER DISCOUNT ON STELLAR LITE (50K & 25K)           |
-+------------------------------------+-----------------------+--------------------+---------------------+
-| Component                          | Stellar Lite 50K ($)  | Stellar Lite 25K ($| Combined Total ($)  |
-+------------------------------------+-----------------------+--------------------+---------------------+
-| Baseline Quarterly Revenue         | $106,445              | $59,430            | $165,875            |
-| Less: Baseline Cannibalization Loss| -$11,664              | -$6,625            | -$18,290            |
-| Add: Incremental Purchase Revenue  | +$50,353              | +$29,693           | +$80,047            |
-| Add: Incremental Reset Revenue     | +$34,812              | +$21,086           | +$55,898            |
-| Less: Incremental Payouts (COGS)   | -$5,209               | -$4,316            | -$9,525             |
-+------------------------------------+-----------------------+--------------------+---------------------+
-| NET INCREMENTAL PROFIT (QUARTERLY) | +$68,292              | +$39,838           | +$108,130           |
-| NET INCREMENTAL PROFIT (ANNUALIZED)| +$273,168             | +$159,354          | +$432,520           |
-+------------------------------------+-----------------------+--------------------+---------------------+
++-------------------------------------+-----------------------+----------------------+---------------------+
+| Component                           | Stellar Lite 50K ($)  | Stellar Lite 25K ($) | Combined Total ($)  |
++-------------------------------------+-----------------------+----------------------+---------------------+
+| Baseline Quarterly Revenue          | $198,988              | $111,116             | $310,104            |
+| Less: Baseline Cannibalization Loss | -$19,899              | -$11,112             | -$31,011            |
+| Add: Incremental Purchase Revenue   | +$88,105              | +$51,943             | +$140,048           |
+| Add: Incremental Reset Revenue      | +$60,911              | +$36,886             | +$97,797            |
+| Less: Incremental Payouts (COGS)    | -$9,115               | -$7,550              | -$16,665            |
++-------------------------------------+-----------------------+----------------------+---------------------+
+| NET INCREMENTAL PROFIT (QUARTERLY)  | +$120,003             | +$70,168             | +$190,171           |
+| NET INCREMENTAL PROFIT (ANNUALIZED) | +$480,012             | +$280,673            | +$760,685           |
++-------------------------------------+-----------------------+----------------------+---------------------+
 ```
 
 ### 3. Evidence & Price Sensitivity Analysis (Evidence Third)
 * **Empirical Price Elasticity of Demand:**
-  * **Hyper-Elastic Engine (Discount!):** Stellar Lite 25K ($\beta = -5.26, p < 10^{-100}, R^2 = 0.67$) and Stellar Lite 50K ($\beta = -4.97, p < 10^{-100}, R^2 = 0.65$) exhibit extreme price sensitivity. Promotional discounts trigger a **+380% to +413% volume explosion**, generating high-margin resets with minimal payout obligations ($11.44 – $14.79/account).
-  * **Elastic Mid-Tier (Selective Discounts):** Stellar 2-Step 25K ($\beta = -2.23$) and 50K ($\beta = -1.73$) respond favorably to moderate promotional discounts (+70% to +89% volume lift) with healthy reset attachment.
-  * **Inelastic High-Risk Series (Do NOT Discount):** Stellar 1-Step plans are price-inelastic ($\beta = -0.39$ to $-0.79$). Discounting cannibalizes top-line revenue without generating sufficient volume to offset the lower price point.
+  * **Hyper-Elastic Engine (Discount!):** Stellar Lite 25K ($\beta = -5.26, p < 10^{-100}, R^2 = 0.67$) and Stellar Lite 50K ($\beta = -4.97, p < 10^{-100}, R^2 = 0.65$) exhibit extreme price sensitivity. Promotional discounts trigger a **+398.7% to +413.0% volume explosion**, generating high-margin resets with minimal payout obligations ($11.44 – $14.79/account).
+  * **Elastic Mid-Tier (Selective Discounts):** Stellar 2-Step 25K ($\beta = -2.23$) and 50K ($\beta = -1.73$) respond favorably to moderate promotional discounts (from +70.6% to +88.7% volume lift) with healthy reset attachment.
+  * **Inelastic High-Risk Series (Do NOT Discount):** Stellar 1-Step plans are price-inelastic ($\beta = -0.79 to -0.39$). Discounting cannibalizes top-line revenue without generating sufficient volume to offset the lower price point.
   * **The Instant Discount Trap (Zero Discount / Kill Product):** Stellar Instant 25K loses -$1,837 per account. Discounting increases transaction volume by +45.7%, accelerating losses by -$85,000/month.
 
 ```
 +-------------------------------------------------------------------------------------------------------+
 |                                    PRICE ELASTICITY & PROMO LIFT SUMMARY                              |
-+-------------------------+------------+-----------------+-------------+-----------------+--------------+
-| Plan Name               | Price ($)  | Elasticity (β)  | Promo Lift  | Significance (p)| Policy Action|
-+-------------------------+------------+-----------------+-------------+-----------------+--------------+
-| Stellar Lite 25K        | $99        | -5.26           | +413.0%     | < 0.0001        | DEEP DISCOUNT|
-| Stellar Lite 50K        | $179       | -4.97           | +398.7%     | < 0.0001        | DEEP DISCOUNT|
-| Stellar 2-Step 25K      | $159       | -2.23           | +88.7%      | < 0.0001        | SELECT PROMO |
-| Stellar 2-Step 10K      | $59        | -1.80           | +74.3%      | < 0.0001        | SELECT PROMO |
-| Stellar 2-Step 50K      | $249       | -1.73           | +70.6%      | < 0.0001        | SELECT PROMO |
-| Futures Real 25K        | $99        | -1.21           | +43.8%      | < 0.0001        | MODERATE     |
-| Stellar Instant 25K     | $149       | -1.25           | +45.7%      | < 0.0001        | ZERO DISCOUNT|
-| Stellar 1-Step 50K      | $299       | -0.79           | +23.6%      | < 0.001         | FULL PRICE   |
-| Stellar 1-Step 25K      | $199       | -0.65           | +20.9%      | 0.0029          | FULL PRICE   |
-| Stellar 1-Step 10K      | $79        | -0.39           | +10.1%      | 0.0861          | FULL PRICE   |
-+-------------------------+------------+-----------------+-------------+-----------------+--------------+
++-------------------------+------------+-----------------+-------------+------------------+---------------+
+| Plan Name               | Price ($)  | Elasticity (β)  | Promo Lift  | Significance (p) | Policy Action |
++-------------------------+------------+-----------------+-------------+------------------+---------------+
+| Stellar Lite 25K        | $99        | -5.26           | +413.0%     | < 0.0001         | DEEP DISCOUNT |
+| Stellar Lite 50K        | $179       | -4.97           | +398.7%     | < 0.0001         | DEEP DISCOUNT |
+| Stellar 2-Step 25K      | $159       | -2.23           | +88.7%      | < 0.0001         | SELECT PROMO  |
+| Stellar 2-Step 10K      | $59        | -1.80           | +74.3%      | < 0.0001         | SELECT PROMO  |
+| Stellar 2-Step 50K      | $249       | -1.73           | +70.6%      | < 0.0001         | SELECT PROMO  |
+| Stellar Instant 25K     | $149       | -1.25           | +45.7%      | < 0.0001         | ZERO DISCOUNT |
+| Futures Real 25K        | $99        | -1.21           | +43.8%      | < 0.0001         | MODERATE      |
+| Stellar 1-Step 50K      | $299       | -0.79           | +23.6%      | 0.0005           | FULL PRICE    |
+| Stellar 1-Step 25K      | $199       | -0.65           | +20.9%      | 0.0029           | FULL PRICE    |
+| Stellar 1-Step 10K      | $79        | -0.39           | +10.1%      | 0.0861           | FULL PRICE    |
++-------------------------+------------+-----------------+-------------+------------------+---------------+
 ```
 
 ### 4. Methodology & Downstream Reconciliations (Methodology Last)
